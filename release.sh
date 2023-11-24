@@ -6,4 +6,4 @@ if [ -f equal ]; then
 fi
 
 RELEASE=$(echo rclone-*.deb)
-upload_package upload --distro buster,bullseye public_apt "$RELEASE"
+upload_package upload --distro buster,bullseye,bookworm public_apt "$RELEASE"
